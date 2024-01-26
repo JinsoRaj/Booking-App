@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:name1",
+ "creation": "2024-01-24 12:44:26.980347",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "game_details_section",
+  "name1",
+  "amount_per_slot",
+  "allowed_slots",
+  "booking"
+ ],
+ "fields": [
+  {
+   "fieldname": "game_details_section",
+   "fieldtype": "Section Break",
+   "label": "Game Details"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "amount_per_slot",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Amount per Slot"
+  },
+  {
+   "fieldname": "booking",
+   "fieldtype": "Table",
+   "label": "Booked Slots",
+   "options": "Slot"
+  },
+  {
+   "fieldname": "allowed_slots",
+   "fieldtype": "Table",
+   "label": "Allowed Slots",
+   "options": "Slot"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-26 00:36:25.252929",
+ "modified_by": "Administrator",
+ "module": "Booking App",
+ "name": "Game",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Booking Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

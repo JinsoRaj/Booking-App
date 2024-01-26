@@ -1,0 +1,61 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"1zhhtzqhAy\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Booking App</span>\",\"col\":12}},{\"id\":\"G4dzr2i5at\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"S4KXriT3VI\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Customer\",\"col\":4}},{\"id\":\"ZP7ZnAdJlu\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Game\",\"col\":4}},{\"id\":\"bZsvRKFvWn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Game Registration\",\"col\":3}},{\"id\":\"LWqa0OwS1O\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Booking\",\"col\":4}},{\"id\":\"W-lzBH9-jA\",\"type\":\"spacer\",\"data\":{\"col\":12}}]",
+ "creation": "2024-01-24 17:01:28.979489",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "table_2",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Booking App",
+ "links": [],
+ "modified": "2024-01-26 12:24:32.521525",
+ "modified_by": "Administrator",
+ "module": "Booking App",
+ "name": "Booking App",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Customer",
+   "link_to": "Customer",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Game",
+   "link_to": "Game",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Game Registration",
+   "link_to": "Game Registration",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Booking",
+   "link_to": "Booking",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Booking App"
+}

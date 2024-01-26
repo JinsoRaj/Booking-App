@@ -1,0 +1,67 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{start_time}-{game}-{##}",
+ "creation": "2024-01-25 23:41:40.475702",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_an3b",
+  "game",
+  "date",
+  "slot_count",
+  "start_time",
+  "end_time"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_an3b",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "slot_count",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Slot count"
+  },
+  {
+   "fieldname": "start_time",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Start Time"
+  },
+  {
+   "fieldname": "end_time",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "End Time"
+  },
+  {
+   "fieldname": "game",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Game",
+   "options": "Game"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-01-26 00:26:36.502433",
+ "modified_by": "Administrator",
+ "module": "Booking App",
+ "name": "Slot",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

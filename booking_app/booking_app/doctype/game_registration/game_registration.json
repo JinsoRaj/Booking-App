@@ -9,7 +9,11 @@
   "amended_from",
   "customer",
   "game",
-  "slots"
+  "slots_section",
+  "date",
+  "day",
+  "start_time",
+  "end_time"
  ],
  "fields": [
   {
@@ -39,16 +43,36 @@
    "options": "Game"
   },
   {
-   "fieldname": "slots",
-   "fieldtype": "Table",
-   "label": "Slots",
-   "options": "Slot"
+   "fieldname": "slots_section",
+   "fieldtype": "Section Break",
+   "label": "Slots"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "day",
+   "fieldtype": "Select",
+   "label": "Day",
+   "options": "Sunday\nMonday\nTuesday\nWednesday\nThursday\nFriday\nSaturday"
+  },
+  {
+   "fieldname": "start_time",
+   "fieldtype": "Time",
+   "label": "Start Time"
+  },
+  {
+   "fieldname": "end_time",
+   "fieldtype": "Time",
+   "label": "End Time"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-01-26 00:09:08.336005",
+ "modified": "2024-01-28 00:48:48.079366",
  "modified_by": "Administrator",
  "module": "Booking App",
  "name": "Game Registration",

@@ -9,8 +9,7 @@
   "game_details_section",
   "name1",
   "amount_per_slot",
-  "allowed_slots",
-  "booking"
+  "schedule"
  ],
  "fields": [
   {
@@ -32,21 +31,15 @@
    "label": "Amount per Slot"
   },
   {
-   "fieldname": "booking",
+   "fieldname": "schedule",
    "fieldtype": "Table",
-   "label": "Booked Slots",
-   "options": "Slot"
-  },
-  {
-   "fieldname": "allowed_slots",
-   "fieldtype": "Table",
-   "label": "Allowed Slots",
-   "options": "Slot"
+   "label": "Schedule",
+   "options": "Slot Schedule"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-01-26 00:36:25.252929",
+ "modified": "2024-01-27 23:45:59.198106",
  "modified_by": "Administrator",
  "module": "Booking App",
  "name": "Game",
